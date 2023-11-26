@@ -3,9 +3,6 @@ import {
   Slide,
   Heading,
   DefaultTemplate,
-  UnorderedList,
-  ListItem,
-  Text,
 } from 'spectacle';
 
 const theme = {
@@ -24,34 +21,9 @@ function App() {
     <Deck theme={theme} template={<DefaultTemplate />}>
       <Slide backgroundColor="#1b1b1d">
         <Heading>00: Whoami?</Heading>
-        <UnorderedList>
-          <ListItem>
-            <Text>Software Developer for the last 15 years</Text>
-          </ListItem>
-          <ListItem>
-            <Text>
-              Core experience in Microsoft technologies - .NET, SQL Server,
-              Azure DevOps, etc.
-            </Text>
-          </ListItem>
-          <ListItem>
-            <Text>Worked at RAPID RTC/Keyloop in the Automotive space</Text>
-          </ListItem>
-        </UnorderedList>
       </Slide>
       <Slide backgroundColor="#1b1b1d">
         <Heading>01: Set the stage</Heading>
-        <UnorderedList>
-          <ListItem>
-            <Text>Zero TypeScript/JavaScript, React, and Node experience</Text>
-          </ListItem>
-          <ListItem>
-            <Text>No work policy to be able to contribute</Text>
-          </ListItem>
-          <ListItem>
-            <Text>Never contributed before</Text>
-          </ListItem>
-        </UnorderedList>
       </Slide>
       <Slide backgroundColor="#1b1b1d">
         <Heading>02: Started with Logging Issues</Heading>
